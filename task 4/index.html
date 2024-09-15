@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Developer Portfolio">
+    <title>Tamanna Jain| Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="your logo">TAMANNA JAIN</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Professional Experience</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>HI, I'M <span class="highlight">TAMANNA JAIN</span></h1>
+            <p>A Creative Web Developer with a passion for designing engaging digital experiences</p><br>
+            <button onclick="scrollToSection('projects')">View My Work</button>
+        </div>
+        <div class="hero-image">
+            <img src="profile.png" alt="my photo">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>Hello, I'm Tamanna Jain, a passionate web developer with a love for creating beautiful and functional websites. Over the past few years, I have honed my skills in front-end and back-end technologies, working on various projects that range from personal portfolios to complex e-commerce websites. My primary focus is to create engaging, user-friendly, and highly responsive websites that meet the client's needs..</p>
+        <div class="about-details">
+            
+              <!-- Education -->
+    <div class="about-section">
+      <h3>Education</h3>
+      <ul>
+          <li>
+              <strong>Bachelor of Computer Applications</strong> – Symbiosis Institute of Computer Studies and Research  
+              <span>Graduation Year: 2020</span><br>
+              Description: Specialized in Web Development, Artificial Intelligence and Machine Learning and Database Management and 
+          </li>
+          <li>
+              <strong>Full Stack Web Development Certification</strong> – Codecademy  
+              <span>Completion Year: 2021</span><br>
+              Description:  Completed a 6-month certification program focused on full-stack web development, covering HTML, CSS, JavaScript, React, Node.js, and MongoDB.
+          </li>
+      </ul>
+  </div>
+
+        </div>
+    </section>
+
+      <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <BR>
+      <div class="container">
+          <h2>Projects</h2>
+             <div class="project">
+              <img src="ecommerce.png" alt="Project 2">
+              <div class="project-info">
+                  <h3>E-Commerce Website</h3>
+                  <p>An online store with features like product listings, a shopping cart, and a checkout process. It was built using React for the frontend and Node.js/Express for the backend, with a MongoDB database to manage product and order information.</p>
+                  <a href="#" class="btn-secondary"></a>
+              </div>
+          </div><br>
+
+
+
+          <div class="project">
+              <img src="weather.png" alt="Project 3">
+              <div class="project-info">
+                  <h3>Weather App</h3>
+                  <p>A simple weather application that fetches real-time weather data using the OpenWeatherMap API. The user can search for weather conditions in any city, and the app displays current temperature, humidity, and a 5-day forecast.</p>
+                  <a href="#" class="btn-secondary"></a>
+              </div>
+          </div>
+
+      </div>
+  </section>
+  <BR>
+    <br>
+    <!-- Professional Experience -->
+     <div class="about-section">
+      <h3>Professional Experience</h3>
+      <ul>
+          <li>
+              <strong>Web Developer</strong> – XYZ Tech Solutions 
+              <span>March 2021 – Present</span><br>
+              Description: At XYZ Tech Solutions, I worked on designing and developing websites using HTML, CSS, JavaScript, and modern frameworks like React and Node.js. I collaborated closely with designers and project managers to create seamless, user-centric experiences for clients. Some of the projects included e-commerce platforms and portfolio websites for local businesses.
+          </li>
+          <li>
+              <strong>Junior Web Developer</strong> – Web Innovators  
+              <span>June 2020 – February 2021</span><br>
+              Description: As a Junior Web Developer, I contributed to building user interfaces and worked on bug fixes for existing web applications. I enhanced the user experience by ensuring responsiveness across multiple devices and worked on performance optimization of the websites.
+          </li>
+      </ul>
+  </div>
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+          <h2>Skills</h2>
+          <div class="skill-set">
+              <div class="skill">
+                  <h3>HTML & CSS</h3>
+                  <div class="skill-bar">
+                      <div class="skill-level html-css"></div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <h3>JavaScript</h3>
+                  <div class="skill-bar">
+                      <div class="skill-level javascript"></div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <h3>React</h3>
+                  <div class="skill-bar">
+                      <div class="skill-level react"></div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <h3>Node.js</h3>
+                  <div class="skill-bar">
+                      <div class="skill-level nodejs"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+    <!-- Contact Section -->
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <p>Have a question or want to work together? Feel free to reach out to me!</p>
+      <form class="contact-form" action="https://formsubmit.co/your-email" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+      </form>
+      <div class="social-links">
+         
+      </div>
+  </section>
+
+
+    <!-- Footer -->
+    <!-- Footer Section -->
+    <footer>
+      <p>© 2024 Tamanna Jain | <a href="mailto:tamanna@example.com">Contact Me</a></p>
+  </footer>
+</body>
+</html>
